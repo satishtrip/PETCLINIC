@@ -35,7 +35,7 @@ import mysql from "mysql2"
 var connectDB = mysql.createConnection({
   host : 'localhost',
   user : 'root',
-  password : '',
+  password : 'Jageera@512',
   database : 'petbook'
 })
 

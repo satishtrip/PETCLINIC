@@ -19,20 +19,13 @@ module.exports = {
       },
       password: {
         type: Sequelize.STRING
-      },
-      address: {
-        type: Sequelize.STRING
-      },
+      }
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
       },
       updatedAt: {
-        allowNull: true,
-        type: Sequelize.DATE
-      },
-      deletedAT: {
-        allowNull: true,
+        allowNull: false,
         type: Sequelize.DATE
       }
     });
